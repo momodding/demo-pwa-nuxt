@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "apple-watch-3",
+      "name": "Apple Watch 3",
+      "varian": [
+        {
+          "sku": "1001",
+          "stockLeft": 1,
+          "price": 3800000,
+          "color": "Space Grey",
+          "colorCode": "#84888B",
+          "picture": "/images/apple-watch-3-space-grey-min.jpg"
+        },
+        {
+          "sku": "1002",
+          "stockLeft": 3,
+          "price": 3800000,
+          "color": "Silver",
+          "colorCode": "#CDCED0",
+          "picture": "/images/apple-watch-3-silver-min.jpg"
+        }
+      ]
+    },
+    {
+      "id": "macbook-pro-15",
+      "name": "MacBook Pro 15",
+      "varian": [
+        {
+          "sku": "2001",
+          "stockLeft": 3,
+          "price": 28000000,
+          "color": "Silver",
+          "colorCode": "#CDCED0",
+          "picture": "/images/apple-macbook-pro-15-silver-min.jpg"
+        },
+        {
+          "sku": "2002",
+          "stockLeft": 2,
+          "price": 28000000,
+          "color": "Space Grey",
+          "colorCode": "#84888B",
+          "picture": "/images/apple-macbook-pro-15-space-grey-min.jpg"
+        }
+      ]
+    },
+    {
+      "id": "iphone-xs",
+      "name": "iPhone XS",
+      "varian": [
+        {
+          "sku": "3001",
+          "stockLeft": 5,
+          "price": 12000000,
+          "color": "Gold",
+          "colorCode": "#ECCCB5",
+          "picture": "/images/apple-iphone-xs-gold-min.jpg"
+        },
+        {
+          "sku": "3002",
+          "stockLeft": 1,
+          "price": 12000000,
+          "color": "Space Grey",
+          "colorCode": "#56585D",
+          "picture": "/images/apple-iphone-xs-space-grey-min.jpg"
+        },
+        {
+          "sku": "3003",
+          "stockLeft": 0,
+          "price": 12000000,
+          "color": "Silver",
+          "colorCode": "#E0E0DD",
+          "picture": "/images/apple-iphone-xs-silver-min.jpg"
+        }
+      ]
+    },
+    {
+      "id": "macbook-pro-13",
+      "name": "MacBook Pro 13",
+      "varian": [
+        {
+          "sku": "4001",
+          "stockLeft": 6,
+          "price": 24000000,
+          "color": "Space Grey",
+          "colorCode": "#84888B",
+          "picture": "/images/apple-macbook-pro-13-space-grey-min.jpg"
+        },
+        {
+          "sku": "4002",
+          "stockLeft": 0,
+          "price": 24000000,
+          "color": "Silver",
+          "colorCode": "#CDCED0",
+          "picture": "/images/apple-macbook-pro-13-silver-min.jpg"
+        }
+      ]
+    }
+  ]
+}
