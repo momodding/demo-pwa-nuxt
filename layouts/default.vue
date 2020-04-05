@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="app" class="container">
     <MainMenu />
     <SecondaryMenu v-if="this.$route.name">{{
       this.$route.name

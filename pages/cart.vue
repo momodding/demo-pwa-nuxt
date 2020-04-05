@@ -30,11 +30,8 @@
           </div>
         </div>
         <div v-else class="col-12 col-md-12">
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="min-height: 240px;"
-          >
-            <div class="alert alert-warning" style="text-align: center">
+          <div class="d-flex justify-content-center mt-5 mt-md-5 mb-5 mb-md-5">
+            <div class="alert alert-warning">
               Cart is Empty
             </div>
           </div>
