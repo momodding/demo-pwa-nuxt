@@ -72,8 +72,8 @@ export default {
    */
   pwa: {
     manifest: {
-      name: 'Demo PWA Nuxt.js by Varian Hermianto',
-      short_name: 'demopwanuxt',
+      name: 'Nuxt.js PWA by Varian Hermianto',
+      short_name: 'nuxtpwademo',
       lang: 'id',
       display: 'standalone'
     }
