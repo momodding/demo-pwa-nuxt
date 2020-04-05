@@ -10,7 +10,8 @@
           "price": 12000000,
           "color": "Gold",
           "colorCode": "#ECCCB5",
-          "picture": "/images/apple-iphone-xs-gold-min.jpg"
+          "picture": "/images/apple-iphone-xs-gold.jpg",
+          "resizedPicture": "/images/resized-apple-iphone-xs-gold.jpg"
         },
         {
           "sku": "1002",
@@ -18,7 +19,8 @@
           "price": 12000000,
           "color": "Space Grey",
           "colorCode": "#56585D",
-          "picture": "/images/apple-iphone-xs-space-grey-min.jpg"
+          "picture": "/images/apple-iphone-xs-space-grey.jpg",
+          "resizedPicture": "/images/resized-apple-iphone-xs-space-grey.jpg"
         },
         {
           "sku": "1003",
@@ -26,7 +28,8 @@
           "price": 12000000,
           "color": "Silver",
           "colorCode": "#E0E0DD",
-          "picture": "/images/apple-iphone-xs-silver-min.jpg"
+          "picture": "/images/apple-iphone-xs-silver.jpg",
+          "resizedPicture": "/images/resized-apple-iphone-xs-silver.jpg"
         }
       ]
     },
@@ -40,7 +43,8 @@
           "price": 28000000,
           "color": "Silver",
           "colorCode": "#CDCED0",
-          "picture": "/images/apple-macbook-pro-15-silver-min.jpg"
+          "picture": "/images/apple-macbook-pro-15-silver.jpg",
+          "resizedPicture": "/images/resized-apple-macbook-pro-15-silver.jpg"
         },
         {
           "sku": "2002",
@@ -48,7 +52,8 @@
           "price": 28000000,
           "color": "Space Grey",
           "colorCode": "#84888B",
-          "picture": "/images/apple-macbook-pro-15-space-grey-min.jpg"
+          "picture": "/images/apple-macbook-pro-15-space-grey.jpg",
+          "resizedPicture": "/images/resized-apple-macbook-pro-15-space-grey.jpg"
         }
       ]
     },
@@ -62,7 +67,8 @@
           "price": 3800000,
           "color": "Space Grey",
           "colorCode": "#84888B",
-          "picture": "/images/apple-watch-3-space-grey-min.jpg"
+          "picture": "/images/apple-watch-3-space-grey.jpg",
+          "resizedPicture": "/images/resized-apple-watch-3-space-grey.jpg"
         },
         {
           "sku": "3002",
@@ -70,7 +76,8 @@
           "price": 3800000,
           "color": "Silver",
           "colorCode": "#CDCED0",
-          "picture": "/images/apple-watch-3-silver-min.jpg"
+          "picture": "/images/apple-watch-3-silver.jpg",
+          "resizedPicture": "/images/resized-apple-watch-3-silver.jpg"
         }
       ]
     },
@@ -84,7 +91,8 @@
           "price": 24000000,
           "color": "Space Grey",
           "colorCode": "#84888B",
-          "picture": "/images/apple-macbook-pro-13-space-grey-min.jpg"
+          "picture": "/images/apple-macbook-pro-13-space-grey.jpg",
+          "resizedPicture": "/images/resized-apple-macbook-pro-13-space-grey.jpg"
         },
         {
           "sku": "4002",
@@ -92,7 +100,8 @@
           "price": 24000000,
           "color": "Silver",
           "colorCode": "#CDCED0",
-          "picture": "/images/apple-macbook-pro-13-silver-min.jpg"
+          "picture": "/images/apple-macbook-pro-13-silver.jpg",
+          "resizedPicture": "/images/resized-apple-macbook-pro-13-silver.jpg"
         }
       ]
     }

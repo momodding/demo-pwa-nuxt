@@ -42,7 +42,7 @@ export default {
       return this.product.varian[0].price
     },
     picture() {
-      return require('@/assets' + this.product.varian[0].picture)
+      return require('@/assets' + this.product.varian[0].resizedPicture)
     }
   }
 }
