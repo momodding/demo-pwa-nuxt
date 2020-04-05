@@ -1,6 +1,6 @@
 <template>
   <BaseContent>
-    <div class="row no-gutters">
+    <div class="row no-gutters py-5">
       <Products
         v-for="(product, index) in products"
         :key="index"

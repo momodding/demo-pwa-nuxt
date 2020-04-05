@@ -50,10 +50,12 @@ li {
 }
 
 .nuxt-link a {
+  color: #038621;
   font-weight: bold;
 }
 
 .nuxt-link a:hover {
+  color: #28a745;
   text-decoration: none;
 }
 

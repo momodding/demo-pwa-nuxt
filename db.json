@@ -1,24 +1,32 @@
 {
   "products": [
     {
-      "id": "apple-watch-3",
-      "name": "Apple Watch 3",
+      "id": "iphone-xs",
+      "name": "iPhone XS",
       "varian": [
         {
           "sku": "1001",
-          "stockLeft": 1,
-          "price": 3800000,
-          "color": "Space Grey",
-          "colorCode": "#84888B",
-          "picture": "/images/apple-watch-3-space-grey-min.jpg"
+          "stockLeft": 5,
+          "price": 12000000,
+          "color": "Gold",
+          "colorCode": "#ECCCB5",
+          "picture": "/images/apple-iphone-xs-gold-min.jpg"
         },
         {
           "sku": "1002",
-          "stockLeft": 3,
-          "price": 3800000,
+          "stockLeft": 1,
+          "price": 12000000,
+          "color": "Space Grey",
+          "colorCode": "#56585D",
+          "picture": "/images/apple-iphone-xs-space-grey-min.jpg"
+        },
+        {
+          "sku": "1003",
+          "stockLeft": 0,
+          "price": 12000000,
           "color": "Silver",
-          "colorCode": "#CDCED0",
-          "picture": "/images/apple-watch-3-silver-min.jpg"
+          "colorCode": "#E0E0DD",
+          "picture": "/images/apple-iphone-xs-silver-min.jpg"
         }
       ]
     },
@@ -45,32 +53,24 @@
       ]
     },
     {
-      "id": "iphone-xs",
-      "name": "iPhone XS",
+      "id": "apple-watch-3",
+      "name": "Apple Watch 3",
       "varian": [
         {
           "sku": "3001",
-          "stockLeft": 5,
-          "price": 12000000,
-          "color": "Gold",
-          "colorCode": "#ECCCB5",
-          "picture": "/images/apple-iphone-xs-gold-min.jpg"
+          "stockLeft": 1,
+          "price": 3800000,
+          "color": "Space Grey",
+          "colorCode": "#84888B",
+          "picture": "/images/apple-watch-3-space-grey-min.jpg"
         },
         {
           "sku": "3002",
-          "stockLeft": 1,
-          "price": 12000000,
-          "color": "Space Grey",
-          "colorCode": "#56585D",
-          "picture": "/images/apple-iphone-xs-space-grey-min.jpg"
-        },
-        {
-          "sku": "3003",
-          "stockLeft": 0,
-          "price": 12000000,
+          "stockLeft": 3,
+          "price": 3800000,
           "color": "Silver",
-          "colorCode": "#E0E0DD",
-          "picture": "/images/apple-iphone-xs-silver-min.jpg"
+          "colorCode": "#CDCED0",
+          "picture": "/images/apple-watch-3-silver-min.jpg"
         }
       ]
     },

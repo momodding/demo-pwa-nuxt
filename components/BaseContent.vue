@@ -1,7 +1,10 @@
 <template>
   <div class="my-custom">
     <div v-if="isOnline">
-      <slot />
+      <a class="sr-only sr-only-focusable" href="#content">skip to content</a>
+      <div id="content">
+        <slot />
+      </div>
     </div>
     <div v-else class="row no-gutters">
       <div class="col-12 col-md-12">

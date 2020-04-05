@@ -1,7 +1,7 @@
 <template>
   <div class="row no-gutters">
     <div class="col-10 offset-1 col-md-4 offset-md-2">
-      <div class="mt-4 mt-md-4">
+      <div class="mt-4 mt-md-4 px-3">
         <img :src="picture" :alt="name" />
       </div>
     </div>
