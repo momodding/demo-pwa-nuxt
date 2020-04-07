@@ -120,7 +120,7 @@ export default {
       this.$v.$touch()
 
       if (!this.$v.$invalid) {
-        const reviewDiberikan = {
+        const reviewGiven = {
           idProduct: this.idProduct,
           name: this.review.name,
           email: this.review.email,
@@ -130,7 +130,7 @@ export default {
 
         this.review = this.createFreshReviewObject()
 
-        this.$emit('emitSubmitReview', reviewDiberikan)
+        this.$emit('emitSubmitReview', reviewGiven)
 
         this.$v.$reset()
       }

@@ -34,12 +34,6 @@ export const actions = {
         commit('SET_PRODUCT', response.data)
       })
     }
-
-    /*
-    return EventService.getProduct(slug).then((response) => {
-      commit('SET_PRODUCT', response.data)
-    })
-    */
   }
 }
 

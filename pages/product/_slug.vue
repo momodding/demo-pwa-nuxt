@@ -86,14 +86,14 @@ export default {
   },
   async fetch({ params, store, error }) {
     try {
-      await store.dispatch('product/fetchProduct', params.slug).then(() => {})
+      await store.dispatch('product/fetchProduct', params.slug)
     } catch (e) {
       const notification = {
         type: 'error',
         pesan: e.message
       }
 
-      await store.dispatch('notification/addNotification', notification)
+      store.dispatch('notification/addNotification', notification)
 
       error({
         statusCode: 503,

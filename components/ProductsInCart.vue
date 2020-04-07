@@ -15,16 +15,24 @@
             <nuxt-link
               class="text-success"
               :to="{ name: 'product-slug', params: { slug: item.slug } }"
+              >{{ name }}</nuxt-link
             >
-              {{ name }}
-            </nuxt-link>
           </p>
 
-          <p><strong>SKU :</strong> #{{ sku }}</p>
+          <p>
+            <strong>SKU :</strong>
+            #{{ sku }}
+          </p>
 
-          <p><strong>Price :</strong> {{ price | rupiah }}</p>
+          <p>
+            <strong>Price :</strong>
+            {{ price | rupiah }}
+          </p>
 
-          <p><strong>Color :</strong> {{ color }}</p>
+          <p>
+            <strong>Color :</strong>
+            {{ color }}
+          </p>
         </div>
       </div>
       <div
@@ -35,7 +43,7 @@
           <BaseButton
             class="btn btn-outline-danger"
             type="button"
-            @click="hapus"
+            @click="remove"
             >Remove [{{ indexArray }}]</BaseButton
           >
         </div>
@@ -93,8 +101,8 @@ export default {
     }
   },
   methods: {
-    hapus() {
-      this.$emit('emitHapus', this.indexArray)
+    remove() {
+      this.$emit('emitRemove', this.indexArray)
     }
   }
 }
