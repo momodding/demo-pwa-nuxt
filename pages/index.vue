@@ -27,7 +27,7 @@ export default {
         pesan: e.message
       }
 
-      await store.dispatch('notification/addNotification', notification)
+      store.dispatch('notification/addNotification', notification)
 
       error({
         statusCode: 503,
